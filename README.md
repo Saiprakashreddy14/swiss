@@ -51,7 +51,7 @@ go test -v
 
 ## Implementation Details
 
-- Initial size: 8 slots
+- Initial size: 16 slots
 - Load factor threshold: 0.75
 - Resizing strategy: Double the size when load factor is exceeded
 - Hash function: Uses Go's maphash package for high-quality hashing
