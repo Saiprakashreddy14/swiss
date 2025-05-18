@@ -64,4 +64,3 @@ go test -v
   - Delete: O(1)
 - Space complexity: O(n) where n is the number of elements
 
-Note: The actual performance depends on the load factor and the quality of the hash function.
